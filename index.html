@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Формы</title>
+        <link rel="stylesheet" type="text/css" href="reset.css"/>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section>
+            <form action="https://www.bit-by-bit.ru/form-submit" class="registration-form">
+                <img src="mountains-1.jpg"/>
+                <div class="forms">
+                    <H3 class="head">Регистрация</H3>
+                    <div class="flex-row">
+                        <div class="form">
+                            <label for="name">Имя</label>
+                            <div class="inputs">
+                                <input id="name" type="text" name="name"/>
+                            </div>    
+                        </div>
+                        <div class="form">
+                            <label for="firstname">Фамилия</label>
+                            <div class="inputs">
+                                <input id="firstnamename" type="text" name="firstname"/>
+                            </div>
+                        </div>
+                    </div>  
+                    
+                    <div class="flex-row">  
+                        <div class="form">
+                            <label for="e-mail">Email</label>
+                            <div class="inputs">
+                                <input id="e-mail" type="text" name="email"/>
+                            </div>
+                        </div>
+                        <div class="form">
+                            <label for="phone">Телефон</label>
+                            <div class="inputs">
+                                <input id="phone" type="tel" name="phone"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border_bottom"></div>
+                    <div class="title">
+                        <h4>Адрес доставки</h4>
+                    </div>
+                    <div class="country flex-row">
+                        <div class="form">
+                            <label for="select">Страна</label>
+                            <div class="inputs">
+                                <select id="select" name="country">
+                                    <option value="Россия">Россия</option>
+                                    <option value="Казахстан">Казахстан</option>
+                                    <option value="Беларусь">Беларусь</option>
+                                    <option value="Польша">Польша</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form">
+                            <label for="city">Город</label>
+                            <div class="inputs" id="width_3">
+                                <input id="city" type="text" name="city"/>
+                            </div>
+                        </div>
+                        <div class="form">
+                            <label for="post_index">Почтовый индекс</label>
+                            <div class="inputs" id="width_3">
+                                <input id="post_index" type="text" name="post_index"/>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="adres_dostavki flex-row">
+                        <div class="form">
+                            <label for="adres">Адрес доставки (улица, дом, квартира)</label>
+                            <div class="inputs" id="width_1">
+                                <input id="adres" type="text" name="adres"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border_bottom"></div>
+                    <div class="title">
+                        <h4>Уведомлять об акциях и скидках</h4>
+                    </div>    
+                    <p class="spam">Мы не будем отправлять спам, но напишем, когда поступят новые товары или будет большая распродажа.</p>
+                
+                    <div class="checkbox-form">
+                        <div class="checkbox">
+                            <input id="contactchoice1" type="checkbox" name="Email" class="check-color"/>
+                            <label for="contactchoice1">По Email</label>
+                        </div>
+                        <div class="checkbox">
+                            <input id="contactchoice2" type="checkbox" name="SMS" class="check-color"/>
+                            <label for="contactchoice2">По SMS</label>
+                        </div>
+                        <div class="checkbox">
+                            <input id="contactchoice3" type="checkbox" name="Push" class="check-color"/>
+                            <label for="contactchoice3">Push-уведомления в приложении</label>
+                        </div>
+                    </div>
+                    <div class="border_bottom"></div>
+                    <button class="button-blue" type="submit">Создать аккаунт</button> 
+                </div>
+            </form>    
+        </section>
+    </body>
+</html>    

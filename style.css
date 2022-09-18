@@ -1,0 +1,170 @@
+:root {
+    font-family: 'Overpass', sans-serif;
+    box-sizing: border-box;
+    --color-blue: #0284c7;
+    --color-gray: #999999;
+    --color-border: #d4d4d4;
+}
+
+section {
+    background-color: #f5f5f5;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.registration-form img {
+    width: 45%;
+    object-fit: cover;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.registration-form {
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    box-shadow: 5px 20px 14px var(--color-gray);
+}
+
+.forms {
+    padding: 30px;
+    background-color: white;
+    width: 55%;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.head {
+    color: var(--color-blue);
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form {
+    flex-grow: 1;
+}
+
+.form input {
+    margin-bottom: 20px;
+    margin-top: 3px;
+    height: 30px;
+    padding: 5px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid var(--color-border);
+    width: 75%;
+}
+
+.form input:focus {
+    outline: 2px solid var(--color-blue);
+}
+
+.form select:focus {
+    outline: 2px solid var(--color-blue);
+}
+
+.form select {
+    margin-bottom: 30px;
+    margin-top: 4px;
+    height: 42px;
+    padding: 5px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid var(--color-border);
+    margin-right: 19px;
+}
+
+.title {
+
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #171717;
+}
+
+.inputs {
+    width: 100%;
+}
+
+.border_bottom {
+    border-bottom: 1px solid #e5e5e5;
+    width: 96%;
+}
+
+#width_1 input {
+    width: 88%;
+}
+
+#width_3 input {
+    padding: 5px 10px;
+}
+
+.country {
+    flex-wrap: nowrap;
+}
+
+label {
+    font-size: 15px;
+}
+
+.spam {
+    color: var(--color-gray);
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox input {
+    margin-right: 10px;
+}
+
+
+.checkbox-form {
+    margin-bottom: 20px;
+
+}
+
+.button-blue { 
+    margin-top: 20px;
+    background-color: #0ea5e9;
+    color: white;
+    border: none;
+    width: 96%;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px 0 10px 0;
+    cursor: pointer;
+}
+
+.button-blue:hover {
+    background-color: var(--color-blue);
+    transition: 0.5s;
+}
+
+.check-color {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 1px solid var(--color-gray);
+}
+
+.check-color:checked {
+    background-color: var(--color-blue);
+    background-image: url(check_icon.png);
+    background-position: center;
+    background-size: contain;
+}
+
